@@ -70,6 +70,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/values/_index.md"
         label: "Values Page"
         name: "values"
+        preview: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
